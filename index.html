@@ -4,23 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Documentation Page</title>
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
       <nav id="navbar">
         <header>JS Documentation</header>
-        <a href="#introduction">Introduction</a>
-        <a href="#what_you_should_already_know">What you should already know</a>
-        <a href="#javascript_and_java">Javascript and java</a>
-        <a href="#hello_world!">Hello world!</a>
-        <a href="#variables">Variables</a>
-        <a href="#declaring_variables">Declaring Variables</a>
-        <a href="#variable_scope">Variable Scope</a>
-        <a href="#global_variable">Global Variable</a>
-        <a href="#constants">Constants</a>
-        <a href="#data_types">Data types</a>
-        <a href="#while_statement">While Statement</a>
-        <a href="#function_declarations">Functioni Declaration</a>
-        <a href="references">References</a>
+        <ul>
+            <li><a href="#introduction" class="nav-link">Introduction</a></li>
+            <li><a href="#what_you_should_already_know" class="nav-link">What you should already know</a></li>
+            <li><a href="#javascript_and_java" class="nav-link">Javascript and java</a></li>
+            <li><a href="#hello_world!" class="nav-link">Hello world!</a></li>
+            <li><a href="#variables" class="nav-link">Variables</a></li>
+            <li><a href="#declaring_variables" class="nav-link">Declaring Variables</a></li>
+            <li><a href="#variable_scope" class="nav-link">Variable Scope</a></li>
+            <li><a href="#global_variable" class="nav-link">Global Variable</a></li>
+            <li><a href="#constants" class="nav-link">Constants</a></li>
+            <li><a href="#data_types" class="nav-link">Data types</a></li>
+            <li><a href="#while_statement" class="nav-link">While Statement</a></li>
+            <li><a href="#function_declarations" class="nav-link">Function Declarations</a></li>
+            <li><a href="#references" class="nav-link">References</a></li>
+        </ul>
+  
       </nav>
     <main id="main-doc">
       <section class="main-section" id="introduction">
@@ -60,7 +64,7 @@ JavaScript is a very free-form language compared to Java. You do not have to dec
         <header>Hello world!</header>
         <p>
             To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code: <br>
-<code>function greetMe(yourName) { alert("Hello " + yourName); } <br>
+<code>function greetMe(yourName) { alert("Hello " + yourName); } 
 greetMe("World");</code><br>
 Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
         </p>
@@ -140,12 +144,12 @@ However, object attributes are not protected, so the following statement is exec
 <ul>
     <li>Six data types that are primitives:</li>
         <ul>
-            <li>Boolean. true and false.</li>
-            <li>null.  A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.</li>
-            <li>undefined. A top-level property whose value is undefined.</li>
-            <li>Number. 42 or 3.14159.</li>
-            <li>String. "Howdy"</li>
-            <li>Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable.</li>
+            <li class="inner-list">Boolean. true and false.</li>
+            <li class="inner-list">null.  A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.</li>
+            <li class="inner-list">undefined. A top-level property whose value is undefined.</li>
+            <li class="inner-list">Number. 42 or 3.14159.</li>
+            <li class="inner-list">String. "Howdy"</li>
+            <li class="inner-list">Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable.</li>
         </ul>
     <li>and Object</li>
 </ul>
